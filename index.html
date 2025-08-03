@@ -1,13 +1,92 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Crazy Karma League</title>
-  </head>
-  <body>
-    <h1>Crazy Karma League</h1>
-    <ul>
-      <li><a href="scores.html">Live Scores</a></li>
-      <li><a href="stats.html">Stats</a></li>
-    </ul>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- ✏️ Customize this title for your league/site -->
+  <title>Crazy Karma League Home</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 16px;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 16px;
+      color: #aaa;
+      margin-bottom: 40px;
+      text-align: center;
+      max-width: 600px;
+    }
+
+    .nav-buttons {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .nav-buttons a {
+      background-color: #2a2a2a;
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 28px;
+      font-size: 16px;
+      border-radius: 10px;
+      border: 1px solid #444;
+      transition: background-color 0.2s, transform 0.2s;
+    }
+
+    .nav-buttons a:hover {
+      background-color: #444;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ✏️ Customize your main heading -->
+  <h1>Welcome to Crazy Karma League Central</h1>
+
+  <!-- ✏️ Update this description to fit your league -->
+  <p>Your hub for live scores, team stats, and player performance in CKL.</p>
+
+  <div class="nav-buttons">
+    <!-- ✏️ Link to your custom scores and stats pages -->
+    <a href="scores.html">Live Scores</a>
+    <a href="stats.html">Daily Stats</a>
+  </div>
+
+  <!-- ✏️ Replace with your name, handle, or league branding -->
+  <footer>
+    &copy; @livesay
+  </footer>
+
+</body>
 </html>
